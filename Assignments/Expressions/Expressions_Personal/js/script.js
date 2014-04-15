@@ -13,6 +13,6 @@ console.log(startTime);
 alert("Your estimated start time is "+startTime+".");
 
 //Get the amount of hours the trip will take
-var totalHours = prompt("How many hours does it take to drive from Washington, DC to Orlando, FL?");
+var totalHours = prompt("How many hours does it take to drive from Washington, DC to Orlando, FL? (i.e. If it's 16 hours, input 1600. If it's 16 hours and 30 minutes, input 1630.");
 
 console.log(totalHours);
