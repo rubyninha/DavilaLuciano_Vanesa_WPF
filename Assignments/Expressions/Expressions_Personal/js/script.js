@@ -21,3 +21,5 @@ console.log(totalHours);
 var restStops = prompt("How many minutes will you take at rest stops? Remember to input your answer in 24-hour notation. (i.e. If your answer is 30 minutes, input 0030.");
 
 console.log(restStops);
+
+//Figure out how many times the user will make 30-minute rest stops
