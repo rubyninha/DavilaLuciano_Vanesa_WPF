@@ -9,7 +9,7 @@ var name = prompt("Please, type in your name.");
 console.log(name);
 
 //Create an alert that the user will see
-alert("Welcome " +name+"! We have a few questions for you.");
+alert("Welcome, " +name+"! We have a few questions for you.");
 
 //Prompt user for starting time
 
@@ -34,4 +34,9 @@ console.log(restStops);
 //Figure out how many hours in total the trip will last, adding the travel hours and the rest stop minutes
 
 var totalTravel = Number(travelHours) + Number(restStops);
+
 console.log(totalTravel);
+
+console.log(name+", your arrival time to Orlando, FL will be at "+totalTravel+" if your time at rest stops is "+restStops+" hours.");
+
+alert(name+", your arrival time to Orlando, FL will be at "+totalTravel+" if your time at rest stops is "+restStops+" hours.");
