@@ -26,3 +26,5 @@ console.log(restStops);
 
 var totalTravel = Number(travelHours) + Number(restStops);
 console.log(totalTravel);
+
+console.log("Your arrival time to Orlando, FL will be" + totalTravel "if your time at rest stops is" + restStops);
