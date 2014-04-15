@@ -7,3 +7,7 @@
 var startTime = prompt("Please, enter your estimated start time.");
 
 console.log(startTime);
+
+//Create an alert that the user will see
+
+alert("Your estimated start time is "+startTime+".");
