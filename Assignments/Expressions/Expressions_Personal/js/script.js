@@ -1,6 +1,6 @@
 // Expressions - Personal Assignment
 
-//Figure out the time of arrival traveling from Washington, DC to Orlando, FL
+//Figure out the time of arrival traveling from Washington, DC to Orlando, FL by car
 
 //Prompt user for starting time
 
@@ -11,3 +11,6 @@ console.log(startTime);
 //Create an alert that the user will see
 
 alert("Your estimated start time is "+startTime+".");
+
+//Get the amount of hours the trip will take
+
