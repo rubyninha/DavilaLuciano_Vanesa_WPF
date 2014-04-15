@@ -16,3 +16,8 @@ alert("Your estimated start time is "+startTime+".");
 var totalHours = prompt("How many hours does it take to drive from Washington, DC to Orlando, FL? (i.e. If it's 16 hours, input 1600. If it's 16 hours and 30 minutes, input 1630.");
 
 console.log(totalHours);
+
+//Figure out the time the user will take in rest stops
+var restStops = prompt("How many minutes will you take at rest stops? Remember to input your answer in 24-hour notation. (i.e. If your answer is 30 minutes, input 0030.");
+
+console.log(restStops);
