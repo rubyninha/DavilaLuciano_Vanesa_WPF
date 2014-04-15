@@ -2,6 +2,12 @@
 
 //Figure out the time of arrival traveling from Washington, DC to Orlando, FL by car
 
+//Prompt user for name
+
+var name = prompt("Please, type in your name:");
+
+console.log(name);
+
 //Prompt user for starting time
 
 var startTime = prompt("Please, enter your estimated start time using 24-hour notation. (i.e. If it's at 9:00 AM, write 0900).");
