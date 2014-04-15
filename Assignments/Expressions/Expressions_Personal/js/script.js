@@ -24,4 +24,4 @@ console.log(restStops);
 
 //Figure out how many hours in total the trip will last, adding the travel hours and the rest stop minutes
 
-var totalTravel = totalHours + restStops;
+var totalTravel = travelHours + restStops;
