@@ -4,9 +4,12 @@
 
 //Prompt user for name
 
-var name = prompt("Please, type in your name:");
+var name = prompt("Please, type in your name.");
 
 console.log(name);
+
+//Create an alert that the user will see
+alert("Welcome " +name+"! We have a few questions for you.");
 
 //Prompt user for starting time
 
@@ -32,5 +35,3 @@ console.log(restStops);
 
 var totalTravel = Number(travelHours) + Number(restStops);
 console.log(totalTravel);
-
-console.log("Your arrival time to Orlando, FL will be" + totalTravel "if your time at rest stops is" + restStops);
