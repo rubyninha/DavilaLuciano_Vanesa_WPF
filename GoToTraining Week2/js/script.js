@@ -48,6 +48,20 @@ var yearsMore = prompt("How many years in the future would you like?");
 console.log(yearsMore);
 
 
+//Prompting returns a STRING!!! Not a number!!
+//"10" not 10
+
+//Cast a variable
+//Cast a number - Number(variable)
+
+//Cast as a string by String(variable)
+
+//Calculate the future age
+
+var futureAge = age + Number(yearsMore);
+console.log(futureAge);
 
 
-
+//Make our results look pretty
+console.log("You will be "+futureAge+" in "+yearsMore+" years.");
+alert("You will be "+futureAge+" in "+yearsMore+" years.");
