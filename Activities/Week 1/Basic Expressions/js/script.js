@@ -1,7 +1,7 @@
 /* 
 Vanesa Dávila-Luciano
 WPF 1407 Section 02
-Screncast: Basic Expressions 
+Screencast: Basic Expressions 
 */
 
 // Expressions
