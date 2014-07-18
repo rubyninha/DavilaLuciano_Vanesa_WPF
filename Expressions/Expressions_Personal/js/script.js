@@ -17,3 +17,9 @@ console.log(name);
 
 //Create an alert that the user will see
 alert("Welcome, " +name+"! We have a few questions for you.");
+
+//Prompt user for starting time
+
+var startTime = prompt("Please, enter your estimated travel start time using 24-hour notation. (i.e. If it's at 9:00 AM, write 0900).");
+
+console.log(startTime);
