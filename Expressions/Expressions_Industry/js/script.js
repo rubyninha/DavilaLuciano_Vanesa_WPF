@@ -23,3 +23,9 @@ var imageLength1 = prompt("Enter the length of your first image in pixels.");
 console.log(imageLength1);
 
 
+var imageLength2 = prompt("Great! Now enter the length of your second image in pixels...");
+console.log(imageLength2);
+
+
+var imageLength3 = prompt("and the length of your third image in pixels.");
+console.log(imageLength3);
