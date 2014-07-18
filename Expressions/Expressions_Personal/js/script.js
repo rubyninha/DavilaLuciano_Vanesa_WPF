@@ -34,3 +34,9 @@ var restStops = prompt("How many minutes or hours will you take at rest stops in
 
 console.log(restStops);
 
+//Figure out how many hours in total the trip will last, adding the travel hours and the rest stop minutes
+
+var totalTravel = Number(travelHours) + Number(restStops);
+
+console.log(totalTravel);
+
