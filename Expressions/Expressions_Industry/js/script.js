@@ -29,3 +29,13 @@ console.log(imageLength2);
 
 var imageLength3 = prompt("and the length of your third image in pixels.");
 console.log(imageLength3);
+
+
+//List sizes with an array of user input
+
+var lengths = [imageLength1, imageLength2, imageLength3];
+console.log(lengths);
+
+
+
+    
