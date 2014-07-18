@@ -38,7 +38,7 @@ console.log(lengths);
 
 
 //Create an alert that the user will see
-alert("The sizes of your images are " +lengths+".");
+alert("The lengths of your images are " +lengths+".");
 
 
 //Figure out total length by adding pixels of each image
@@ -48,6 +48,43 @@ console.log(totalLength);
 
 console.log(name+", based on the information you gave us, the total length of your banner will be "+totalLength+" pixels.");
 
+//Create an alert that the user will see
+
+alert(name+", based on the information you gave us, the total length of your banner will be "+totalLength+" pixels if images are placed vertically.");
 
 
+//Prompt user for width in pixels of the images
+
+var imageWidth1 = prompt("Now, let's figure out how wide your banner would be. Enter the width of your first image in pixels.");
+console.log(imageWidth1);
+
+
+var imageWidth2 = prompt("Great! Now enter the width of your second image in pixels...");
+console.log(imageWidth2);
+
+
+var imageWidth3 = prompt("and the length of your third image in pixels.");
+console.log(imageWidth3);
+
+
+//List sizes with an array of user input
+
+var widths = [imageWidth1, imageWidth2, imageWidth3];
+console.log(widths);
+
+
+//Create an alert that the user will see
+alert("The widths of your images are " +widths+".");
+
+
+//Figure out total width by adding pixels of each image
+
+var totalWidth = Number(imageWidth1) + Number(imageWidth2) + Number(imageWidth3);
+console.log(totalWidth);
+
+console.log(name+", based on the information you gave us, the total width of your banner will be "+totalWidth+" pixels.");
+
+//Create an alert that the user will see
+
+alert(name+", based on the information you gave us, the total width of your banner will be "+totalWidth+" pixels if images are placed horizontally.");
 
