@@ -15,3 +15,11 @@ console.log(name);
 
 //Create an alert that the user will see
 alert("Welcome, " +name+"! We have a few questions for you.");
+
+
+//Prompt user for length in pixels of the images
+
+var imageLength1 = prompt("Enter the length of your first image in pixels.");
+console.log(imageLength1);
+
+
