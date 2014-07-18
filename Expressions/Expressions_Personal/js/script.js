@@ -40,3 +40,7 @@ var totalTravel = Number(travelHours) + Number(restStops);
 
 console.log(totalTravel);
 
+console.log(name+", your estimated arrival time to Orlando, FL will be at "+totalTravel+" hours if your time at rest stops is "+restStops+" hours.");
+
+alert(name+", your estimated arrival time to Orlando, FL will be at "+totalTravel+" hours if your time at rest stops is "+restStops+" hours.");
+
