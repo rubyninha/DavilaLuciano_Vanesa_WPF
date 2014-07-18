@@ -37,5 +37,5 @@ var lengths = [imageLength1, imageLength2, imageLength3];
 console.log(lengths);
 
 
-
-    
+//Create an alert that the user will see
+alert("The sizes of your images are " +lengths+".");
