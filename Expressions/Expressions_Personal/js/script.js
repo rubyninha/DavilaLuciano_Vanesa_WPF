@@ -29,3 +29,8 @@ var travelHours = prompt("How many hours does it take to drive from Washington, 
 
 console.log(travelHours);
 
+//Figure out the time the user will take in rest stops
+var restStops = prompt("How many minutes or hours will you take at rest stops in total? Remember to input your answer in 24-hour notation. (i.e. If your answer is 30 minutes, input 0030. If your answer is 2 hours, input 0200");
+
+console.log(restStops);
+
