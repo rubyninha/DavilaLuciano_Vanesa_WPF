@@ -23,3 +23,9 @@ alert("Welcome, " +name+"! We have a few questions for you.");
 var startTime = prompt("Please, enter your estimated travel start time using 24-hour notation. (i.e. If it's at 9:00 AM, write 0900).");
 
 console.log(startTime);
+
+//Get the amount of hours the trip will take
+var travelHours = prompt("How many hours does it take to drive from Washington, DC to Orlando, FL? (i.e. If it's 16 hours, input 1600. If it's 16 hours and 30 minutes, input 1630.");
+
+console.log(travelHours);
+
