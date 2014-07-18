@@ -14,7 +14,7 @@ var name = prompt("Please, type in your name.");
 console.log(name);
 
 //Create an alert that the user will see
-alert("Welcome, " +name+"! We have a few questions for you.");
+alert("Welcome, " +name+"! We need a few details from you.");
 
 
 //Prompt user for length in pixels of the images
@@ -39,3 +39,15 @@ console.log(lengths);
 
 //Create an alert that the user will see
 alert("The sizes of your images are " +lengths+".");
+
+
+//Figure out total length by adding pixels of each image
+
+var totalLength = Number(imageLength1) + Number(imageLength2) + Number(imageLength3);
+console.log(totalLength);
+
+console.log(name+", based on the information you gave us, the total length of your banner will be "+totalLength+" pixels.");
+
+
+
+
