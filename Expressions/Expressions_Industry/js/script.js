@@ -7,3 +7,8 @@ Assignment: Expressions_Idustry
 
 //Figure the size of a website banner containing three images, based on the sum of the pixels of each image horizontally or vertically
 
+//Prompt user for name
+
+var name = prompt("Please, type in your name.");
+
+console.log(name);
