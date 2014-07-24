@@ -11,7 +11,7 @@ GoTo Training Example Week #3
 //Create our "fruit bowl""
 //Array - hold multiple variables
 
-var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear"];
+var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "apple"];
 console.log(bowlOfFruit);
 
 //How can I get one fruit in the bowl?
@@ -43,14 +43,66 @@ if(bowlOfFruit[0]==="pear"){
     //This code will run if the condition is FALSE!
     console.log("Fruit is not a pear.");
 
+}
+
+
+
+if(bowlOfFruit[1]==="pear"){ 
+
+    //Count that fruit as a pear
+    //add one to the variable totalNumPears
+    console.log("This fruit is a pear!");
+    totalNumPears++; //++ is the same is as writing totalNumPears = totalNumPears+1
+}else{
+    //This code will run if the condition is FALSE!
+    console.log("Fruit is not a pear.");
 
 }
 
 
 
 
+if(bowlOfFruit[2]==="pear"){ 
+
+    //Count that fruit as a pear
+    //add one to the variable totalNumPears
+    console.log("This fruit is a pear!");
+    totalNumPears++; //++ is the same is as writing totalNumPears = totalNumPears+1
+}else{
+    //This code will run if the condition is FALSE!
+    console.log("Fruit is not a pear.");
+
+}
 
 
+
+if(bowlOfFruit[3]==="pear"){ 
+
+    //Count that fruit as a pear
+    //add one to the variable totalNumPears
+    console.log("This fruit is a pear!");
+    totalNumPears++; //++ is the same is as writing totalNumPears = totalNumPears+1
+}else{
+    //This code will run if the condition is FALSE!
+    console.log("Fruit is not a pear.");
+
+}
+
+if(bowlOfFruit[4]==="pear"){ 
+
+    //Count that fruit as a pear
+    //add one to the variable totalNumPears
+    console.log("This fruit is a pear!");
+    totalNumPears++; //++ is the same is as writing totalNumPears = totalNumPears+1
+}else{
+    //This code will run if the condition is FALSE!
+    console.log("Fruit is not a pear.");
+
+}
+
+
+//Console.log the totalNumPears variable
+console.log(totalNumPears + " pears in the bowl.");
 
 
 
