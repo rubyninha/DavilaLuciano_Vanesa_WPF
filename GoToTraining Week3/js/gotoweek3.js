@@ -11,7 +11,7 @@ GoTo Training Example Week #3
 //Create our "fruit bowl""
 //Array - hold multiple variables
 
-var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "apple"];
+var bowlOfFruit = ["apple", "banana", "pear", "peach", "pear", "apple", "pear", "tomato", "banana"];
 console.log(bowlOfFruit);
 
 //How can I get one fruit in the bowl?
@@ -103,6 +103,39 @@ if(bowlOfFruit[4]==="pear"){
 
 //Console.log the totalNumPears variable
 console.log(totalNumPears + " pears in the bowl.");
+
+//Create a loop for repetetive code
+
+//Create variable to hold pears "2nd" time through
+var pearNumber = 0;
+
+//For loop
+
+//for(initializing a counting variable; condition to test; incremental change){code to do for each loop around}
+
+for(var i =0; i<bowlOfFruit.length; i++){
+    //This code will run when the condition is true.
+    console.log("Inside of Loop");
+    console.log(i);
+    console.log(bowlOfFruit[i]);
+    
+    //Test each fruit if it is a pear
+    
+    if(bowlOfFruit[i]==="pear"){
+                   
+                   //add 1 to our pear total
+                   pearNumber++;
+                   console.log("This fruit is a pear.");
+    
+    }
+
+}
+
+
+console.log(pearNumber + " pears in your bowl.");
+
+
+
 
 
 
