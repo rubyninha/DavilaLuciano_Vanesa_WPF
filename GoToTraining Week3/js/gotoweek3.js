@@ -21,3 +21,39 @@ console.log(bowlOfFruit[1]);
 //Dot Syntax - "use a period""
 //Tell us how many items are in the array
 console.log(bowlOfFruit.length);
+
+//Counting how many pears are in the bowl
+
+//Create a variable that will track how many pears we have in total
+var totalNumPears = 0;
+
+//Test each fruit and see if its a pear
+
+//If(conditional to test){ code that will run if condition is true }
+
+//"7" the same as 7
+
+if(bowlOfFruit[0]==="pear"){ 
+
+    //Count that fruit as a pear
+    //add one to the variable totalNumPears
+    console.log("This fruit is a pear!");
+    totalNumPears++; //++ is the same is as writing totalNumPears = totalNumPears+1
+}else{
+    //This code will run if the condition is FALSE!
+    console.log("Fruit is not a pear.");
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
