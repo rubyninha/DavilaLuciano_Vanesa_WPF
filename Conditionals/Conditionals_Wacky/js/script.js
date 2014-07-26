@@ -35,6 +35,11 @@ if(userDestination === destination || anywhereElse === false) {
     console.log("Your should definitely wear NUDE!");
 
 //if destination is church, try pink color
+}else if (userDestination === "church"){
+    console.log("Pink is your nail color of the day ;)");
+}else{
+    //if destination is anywhere else, try wild color
+    console.log("Today is the perfect day to rock that wild shade you've been dying to try!");
 }
 
 
