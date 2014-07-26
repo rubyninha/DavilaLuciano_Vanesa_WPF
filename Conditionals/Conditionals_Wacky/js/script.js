@@ -16,7 +16,8 @@ var name = prompt("Please, type in your name:");
 if(name===""){
     //The user left it blank
 
-
+    //Reprompt the user for name
+    name = prompt("Please, type in your name. Do not leave blank.");
 
 
 
