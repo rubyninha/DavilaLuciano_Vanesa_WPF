@@ -18,10 +18,17 @@ if(name===""){
 
     //Reprompt the user for name
     name = prompt("Please, type in your name. Do not leave blank.");
+}
+console.log(name);
 
+//Create an alert that the user will see
+alert("Welcome, " +name+"! Let's figure out which color of nail polish you should wear.");
 
+//Create variables for destinations
+var destination = "job interview";
+var  userDestination = prompt("Tell us whether you're going to a job interview, church, or somewhere else:\n(Please, do not leave blank.)");
 
-
+console.log(userDestination);
 
 
 
