@@ -27,8 +27,16 @@ alert("Welcome, " +name+"! Let's figure out which color of nail polish you shoul
 //Create variables for destinations
 var destination = "job interview";
 var  userDestination = prompt("Tell us whether you're going to a job interview, church, or somewhere else:\n(Please, do not leave blank.)");
+var anywhereElse = true;
 
-console.log(userDestination);
+//
+if(userDestination === destination || anywhereElse === false) {
+    console.log("Your should definitely wear NUDE!");
+    alert("Your should definitely wear NUDE!");
+}else if{
+
+}
+
 
 
 
