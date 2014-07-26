@@ -10,3 +10,25 @@ Assignment: Conditionals_Wacky
 
 //Prompt user for name
 var name = prompt("Please, type in your name:");
+
+//Test if the variable is blank
+
+if(name===""){
+    //The user left it blank
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
