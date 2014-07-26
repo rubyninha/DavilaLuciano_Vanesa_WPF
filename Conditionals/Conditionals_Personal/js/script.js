@@ -1,8 +1,1 @@
-/* 
-Vanesa Dávila-Luciano
-WPF 1407 Section 02
-Assignment: Conditionals_Personal
-*/
-
-// Conditionals - Personal Assignment
-
+/* Vanesa Dávila-LucianoWPF 1407 Section 02Assignment: Conditionals_Personal*///Determine if a man is an eligible bachelor based on age and salary//Prompt user for namevar name = prompt("Please, type in your name:");console.log(name);
