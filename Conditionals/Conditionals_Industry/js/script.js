@@ -19,3 +19,25 @@ if(name===""){
     name = prompt("Please, type in your name. Do not leave blank.");
 }
 console.log(name);
+
+//Determine if user is old enough to enter website
+
+//Create variable and prompt for user age
+
+var age = prompt("Please, enter your age:");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
