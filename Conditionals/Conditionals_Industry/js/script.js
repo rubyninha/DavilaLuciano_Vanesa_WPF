@@ -24,7 +24,7 @@ console.log(name);
 
 //Create variable and prompt for user age
 
-var age = prompt("Hello, "+name+"! Please, enter your age:");
+var age = prompt("Hello, "+name+"! How old are you?");
 
 //Test if it is a number
 
@@ -33,11 +33,15 @@ if(isNaN(age)) {
 
     //Remind the user to type in their age in numbers
 
-    var age = prompt("Enter you age only as a NUMBER:");
+    var age = prompt("Please, enter you age only as a NUMBER:");
 }
 console.log(age);
 
+var enterSite;
 
+//If user is 18 years old and up, they can enter the site, otherwise they'll have to come back when they turn 18
+enterSite = (age < 18) ? "Oops! Sorry, "+name+". Looks like you'll have to come back when you turn 18!" : "Welcome, "+name+"! You can enter and enjoy this website.";
+console.log(enterSite);
 
 
 
