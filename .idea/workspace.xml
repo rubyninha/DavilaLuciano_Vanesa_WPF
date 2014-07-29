@@ -55,6 +55,8 @@
         <option value="$PROJECT_DIR$/Activities/Week 4/Function vs Procedure/index.html" />
         <option value="$PROJECT_DIR$/Activities/Week 4/Anonymous Functions/index.html" />
         <option value="$PROJECT_DIR$/Activities/Week 4/Anonymous Functions/js/script.js" />
+        <option value="$PROJECT_DIR$/Activities/Week 4/Loops/index.html" />
+        <option value="$PROJECT_DIR$/Activities/Week 4/Loops/js/script.js" />
       </list>
     </option>
   </component>
@@ -145,7 +147,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Anonymous Functions" />
+              <option name="myItemId" value="Loops" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -167,7 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Anonymous Functions" />
+              <option name="myItemId" value="Loops" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -205,6 +207,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Activities/Week 4" />
+      <recent name="$PROJECT_DIR$/Activities/Week 4/Loops" />
       <recent name="$PROJECT_DIR$/Activities" />
     </key>
   </component>
@@ -566,6 +569,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19966722" vertical-offset="0" max-vertical-offset="601">
           <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Activities/Week 4/Loops/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19966722" vertical-offset="0" max-vertical-offset="601">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Activities/Week 4/Loops/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072" vertical-offset="0" max-vertical-offset="625">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
