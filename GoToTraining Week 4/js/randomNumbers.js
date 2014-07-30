@@ -36,6 +36,15 @@ while(isNaN(min)){
     min = prompt("Please type in a minimum number:");
 
 }
+ // Validating words
+ // Ask user yes or no
+ //"yes" is not the same as "Yes" or "YES"
+ var yesOrNo = prompt("Please, type in yes or no ONLY!");
+
+ while(yesOrNo!="yes" && yesOrNo!="no" && yesOrNo!="Yes"){
+ yesOrNo = prompt("Please, type in yes or no ONLY!");
+
+ }
  */
 
 // Combine validation into one while loop
@@ -45,4 +54,12 @@ while(isNaN(min) || min===""){
 
 }
 
+// Prompt the user for a max number
+var max = prompt("Please, type in a max number:");
 
+// Validate using while loop
+while(isNaN(max) || max===""){
+    //Re-prompt the user
+    max = prompt("Please, type in a max number:");
+
+}
