@@ -63,3 +63,26 @@ while(isNaN(max) || max===""){
     max = prompt("Please, type in a max number:");
 
 }
+
+
+// Call our function
+// Arguments go inside of the function call
+//randomizer(20, 50);
+//randomizer(0, 5);
+randomizer(min, max);
+
+
+// Create a function that will give us a random number
+// Create parameters for our Function
+function randomizer(minNum, maxNum) {
+
+    // Generate a random number in between 2 numbers
+    var randomNumber = Math.random() * (maxNum-minNum)+Number(minNum);
+    console.log(randomNumber);
+
+}
+
+
+
+
+
