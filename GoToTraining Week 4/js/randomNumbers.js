@@ -86,6 +86,16 @@ function randomizer(minNum, maxNum){
 
 }
 
+// 15 random numbers
+// Create a for loop
+for(var i=0; i<15; i++){
+
+    // console.log(results); - NOT CORRECT!
+
+    console.log(randomizer(min, max));
+
+}
+
 
 
 
