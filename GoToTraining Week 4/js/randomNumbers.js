@@ -69,16 +69,20 @@ while(isNaN(max) || max===""){
 // Arguments go inside of the function call
 //randomizer(20, 50);
 //randomizer(0, 5);
-randomizer(min, max);
 
+// Create a variable to "catch" the returned value
+var results = randomizer(min, max);
+console.log("The returned vale is "+results);
 
 // Create a function that will give us a random number
 // Create parameters for our Function
-function randomizer(minNum, maxNum) {
+function randomizer(minNum, maxNum){
 
     // Generate a random number in between 2 numbers
-    var randomNumber = Math.random() * (maxNum-minNum)+Number(minNum);
-    console.log(randomNumber);
+    var randomNumber=Math.round(Math.random()*(maxNum-minNum)+Number(minNum));
+    //console.log(randomNumber); - Not a good way of doing it.
+    // Returning the value!
+    return randomNumber;
 
 }
 
