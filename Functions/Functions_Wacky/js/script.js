@@ -20,3 +20,13 @@ while(isNaN(yourBunny) || yourBunny==="") {
     yourBunny = prompt("Please, enter your bunny's age in form of a number.");
 }
 
+
+
+// Create variable average for a litter in a rabbit's year
+
+var litter = 72;
+
+
+// Call the function
+// Create a variable to "catch" the user input
+var totalBunnies = calcBalance(yourBunny, litter);
