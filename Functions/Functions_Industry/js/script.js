@@ -10,5 +10,10 @@ Assignment: Functions_Industry
 
 //Ask the user for their hourly pay rate
 
-var hourRate = prompt("Please, enter your hourly rate:");
-console.log(hourRate);
+var hourRate = prompt("Please, enter your hourly rate:\n(i.e. $35, enter 35)");
+
+// Validate using while loop
+while(isNaN(hourRate) || hourRate==="") {
+    //Re-prompt the user
+    hourRate = prompt("Please, enter your hourly rate in form of a number.");
+}
