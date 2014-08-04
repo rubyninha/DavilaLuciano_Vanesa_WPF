@@ -30,5 +30,9 @@ while(isNaN(totalHours) || totalHours==="") {
     totalHours = prompt("Please, nter total amount of hours you worked in form of a number.");
 }
 
+// Call the function
+// Create a variable to "catch" the user input
+var total = calcBalance(hourRate, totalHours);
+console.log("The returned vale is "+results);
 
 
