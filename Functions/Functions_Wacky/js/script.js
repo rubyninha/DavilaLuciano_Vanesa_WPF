@@ -31,10 +31,12 @@ var litter = 72;
 // Create a variable to "catch" the user input
 var totalBunnies = calcBunnies(yourBunny, litter);
 
+console.log("Watch out! You might end up with "+totalBunnies+" when all is said and done.");
+
 // Create a function that will calculate the total balance
 // Create parameters for Function
 function calcBunnies(b, l) {
     var bunnies = b * l;
-    return bunnies;
+    return bunnies;//function spitting the info out
 }
 console.log(totalBunnies);
