@@ -40,3 +40,8 @@ function calcBunnies(b, l) {
     return bunnies;//function spitting the info out
 }
 console.log(totalBunnies);
+
+
+// Create alert that user can see
+alert("Watch out! You might end up with "+totalBunnies+" bunnies when all is said and done.");
+
