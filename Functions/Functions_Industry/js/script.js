@@ -33,7 +33,7 @@ while(isNaN(totalHours) || totalHours==="") {
 // Call the function
 // Create a variable to "catch" the user input
 var total = calcBalance(hourRate, totalHours);
-
+console.log("You should charge your client $"+total);
 
 // Create a function that will calculate the total balance
 // Create parameters for Function
