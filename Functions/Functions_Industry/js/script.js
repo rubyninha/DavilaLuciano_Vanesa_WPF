@@ -42,3 +42,6 @@ function calcBalance(r, h) {
     return balance;//function spitting the info out
 }
 console.log(total);
+
+// Create alert that user can see
+alert("You should charge your client $"+total+" for your services.");
